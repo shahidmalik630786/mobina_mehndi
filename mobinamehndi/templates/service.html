@@ -1,0 +1,56 @@
+{% load static %}
+{% include 'header.html' %}
+<section id="services" class="padding-medium">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Our services & facilities</h3>
+      <div class="row mt-5">
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="orange" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+              </svg>
+              <!-- <svg class="color" width="70" height="70">
+                <use xlink:href="#meditation"></use>
+              </svg> -->
+              <img src="{% static 'images/pattern2.png' %}" alt="img"
+                class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+                
+            </div>
+            <h4 class="display-6 fw-normal my-3">Mehendi Products</h4>
+            <p>Rejuvenate your body and mind with our yoga and meditation classes, led by experienced instructors.
+              Whether you're a beginner or an advanced practitioner, our classes cater to all levels and offer a
+              peaceful retreat from the hustle and bustle of the city. With serene surroundings and expert guidance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <img class="orange" height="70" width="70" src="{% static '/images/wrist.png' %}" alt="" >
+              <img src="{% static 'images/pattern2.png' %}" alt="img"
+                class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Mehendi Art</h4>
+            <p>Rejuvenate your body and mind with our yoga and meditation classes, led by experienced instructors.
+              Whether you're a beginner or an advanced practitioner, our classes cater to all levels and offer a
+              peaceful retreat from the hustle and bustle of the city. With serene surroundings and expert guidance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg fill="orange" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M320 0c17.7 0 32 14.3 32 32l0 208c0 8.8 7.2 16 16 16s16-7.2 16-16l0-176c0-17.7 14.3-32 32-32s32 14.3 32 32l0 176c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112c0-17.7 14.3-32 32-32s32 14.3 32 32l0 195.1c-11.9 4.8-21.3 14.9-25 27.8l-8.9 31.2L478.9 391C460.6 396.3 448 413 448 432c0 18.9 12.5 35.6 30.6 40.9C448.4 497.4 409.9 512 368 512l-19.2 0c-59.6 0-116.9-22.9-160-64L76.4 341c-16-15.2-16.6-40.6-1.4-56.6s40.6-16.6 56.6-1.4l60.5 57.6c0-1.5-.1-3.1-.1-4.6l0-272c0-17.7 14.3-32 32-32s32 14.3 32 32l0 176c0 8.8 7.2 16 16 16s16-7.2 16-16l0-208c0-17.7 14.3-32 32-32zm-7.3 326.6c-1.1-3.9-4.7-6.6-8.7-6.6s-7.6 2.7-8.7 6.6L288 352l-25.4 7.3c-3.9 1.1-6.6 4.7-6.6 8.7s2.7 7.6 6.6 8.7L288 384l7.3 25.4c1.1 3.9 4.7 6.6 8.7 6.6s7.6-2.7 8.7-6.6L320 384l25.4-7.3c3.9-1.1 6.6-4.7 6.6-8.7s-2.7-7.6-6.6-8.7L320 352l-7.3-25.4zM104 120l48.3 13.8c4.6 1.3 7.7 5.5 7.7 10.2s-3.1 8.9-7.7 10.2L104 168 90.2 216.3c-1.3 4.6-5.5 7.7-10.2 7.7s-8.9-3.1-10.2-7.7L56 168 7.7 154.2C3.1 152.9 0 148.7 0 144s3.1-8.9 7.7-10.2L56 120 69.8 71.7C71.1 67.1 75.3 64 80 64s8.9 3.1 10.2 7.7L104 120zM584 408l48.3 13.8c4.6 1.3 7.7 5.5 7.7 10.2s-3.1 8.9-7.7 10.2L584 456l-13.8 48.3c-1.3 4.6-5.5 7.7-10.2 7.7s-8.9-3.1-10.2-7.7L536 456l-48.3-13.8c-4.6-1.3-7.7-5.5-7.7-10.2s3.1-8.9 7.7-10.2L536 408l13.8-48.3c1.3-4.6 5.5-7.7 10.2-7.7s8.9 3.1 10.2 7.7L584 408z"/></svg>
+              <img src="{% static 'images/pattern2.png' %}" alt="img"
+                class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Nail Art</h4>
+            <p>Rejuvenate your body and mind with our yoga and meditation classes, led by experienced instructors.
+              Whether you're a beginner or an advanced practitioner, our classes cater to all levels and offer a
+              peaceful retreat from the hustle and bustle of the city. With serene surroundings and expert guidance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% include 'footer.html' %}
