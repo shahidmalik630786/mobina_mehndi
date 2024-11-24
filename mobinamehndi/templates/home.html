@@ -7,7 +7,7 @@
         <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
           <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1">
             <h2 class="display-1 fw-normal  text-secondary responsive-heading">Mobina Mehndi, every design tells a unique story of elegance and grace.</h2>
-            <a href="product/" class="btn btn-arrow btn-primary mt-3">
+            <a href="product/" class="btn btn-arrow btn-primary ">
               <span>Explore products <svg width="18" height="18">
                   <use xlink:href="#arrow-right"></use>
                 </svg></span>
@@ -18,62 +18,148 @@
     </div>
   </section>
 
-  <section id="about-us" class="padding-large">
+  <section id="room" class="">
     <div class="container-fluid padding-side" data-aos="fade-up">
-      <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Ink of love, art of culture.</h3>
-      <div class="row align-items-start mt-3 mt-lg-5">
-        <div class="col-lg-6">
-          <div class="p-5">
-            <p>At Mobina Mehndi, we specialize in offering premium mehndi products, including natural mehndi powder, rich mehndi oil, and a variety of cone accessories. Our products ensure vibrant, long-lasting henna designs for every occasion. In addition to our quality products, we also provide professional mehndi application services for weddings, festivals, and special events. With Mobina Mehndi, you can trust tradition and beauty to come together in every design.</p>
-            <a href="/" class="btn btn-arrow btn-primary mt-3">
-              <span>Read About Us <svg width="18" height="18">
-                  <use xlink:href="#arrow-right"></use>
-                </svg></span>
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <div>
+          <h3 class="display-3 fw-normal text-center">Explore Our Products</h3>
+        </div>
+        <a href="product/" class="btn btn-arrow btn-primary mt-3">
+          <span>Explore products<svg width="18" height="18">
+              <use xlink:href="#arrow-right"></use>
+            </svg></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="row padding-side mt-5">
+    <div class="col">
+        <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+          <img src="{% static 'images/room1.jpg' %}" alt="img" class="post-image img-fluid rounded-4">
+          <div class="product-description position-absolute p-5 text-start">
+            <h4 class="display-6 fw-normal text-white">Grand deluxe rooms</h4>
+            <p class="product-paragraph text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestiae at illum ipsum similique doloribus.</p>
+            <table>
+              <tbody>
+                <tr class="text-white">
+                  <td class="pe-2">Price:</td>
+                  <td class="price">299$ /Pernight</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Size:</td>
+                  <td>10 ft</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Capacity:</td>
+                  <td>Max persion 2</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Bed:</td>
+                  <td>Normal Beds</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Services:</td>
+                  <td>Wifi, Television, Bathroom,...</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="/">
+              <p class="text-decoration-underline text-white m-0 mt-2">Browse Now</p>
             </a>
           </div>
-          <img src="{% static 'images/mpic2.jpg' %}" alt="img" class="img-fluid rounded-4 mt-4">
         </div>
-        <div class="col-lg-6 mt-5 mt-lg-0">
-          <img src="{% static 'images/mpic4.jpg' %}" alt="img" class="img-fluid rounded-4">
-          <img src="{% static 'images/mpic3.jpg' %}" alt="img" class="img-fluid rounded-4 mt-4">
-
+        <div class="room-content text-center mt-3">
+          <h4 class="display-6 fw-normal"><a href="/">Grand deluxe rooms</a></h4>
+          <p><span class="text-primary fs-4">$269</span>/night</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+          <img src="{% static 'images/room1.jpg' %}" alt="img" class="post-image img-fluid rounded-4">
+          <div class="product-description position-absolute p-5 text-start">
+            <h4 class="display-6 fw-normal text-white">Grand deluxe rooms</h4>
+            <p class="product-paragraph text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestiae at illum ipsum similique doloribus.</p>
+            <table>
+              <tbody>
+                <tr class="text-white">
+                  <td class="pe-2">Price:</td>
+                  <td class="price">299$ /Pernight</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Size:</td>
+                  <td>10 ft</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Capacity:</td>
+                  <td>Max persion 2</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Bed:</td>
+                  <td>Normal Beds</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Services:</td>
+                  <td>Wifi, Television, Bathroom,...</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="/">
+              <p class="text-decoration-underline text-white m-0 mt-2">Browse Now</p>
+            </a>
+          </div>
+        </div>
+        <div class="room-content text-center mt-3">
+          <h4 class="display-6 fw-normal"><a href="/">Grand deluxe rooms</a></h4>
+          <p><span class="text-primary fs-4">$269</span>/night</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+          <img src="{% static 'images/room1.jpg' %}" alt="img" class="post-image img-fluid rounded-4">
+          <div class="product-description position-absolute p-5 text-start">
+            <h4 class="display-6 fw-normal text-white">Grand deluxe rooms</h4>
+            <p class="product-paragraph text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestiae at illum ipsum similique doloribus.</p>
+            <table>
+              <tbody>
+                <tr class="text-white">
+                  <td class="pe-2">Price:</td>
+                  <td class="price">299$ /Pernight</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Size:</td>
+                  <td>10 ft</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Capacity:</td>
+                  <td>Max persion 2</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Bed:</td>
+                  <td>Normal Beds</td>
+                </tr>
+                <tr class="text-white">
+                  <td class="pe-2">Services:</td>
+                  <td>Wifi, Television, Bathroom,...</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="/">
+              <p class="text-decoration-underline text-white m-0 mt-2">Browse Now</p>
+            </a>
+          </div>
+        </div>
+        <div class="room-content text-center mt-3">
+          <h4 class="display-6 fw-normal"><a href="/">Grand deluxe rooms</a></h4>
+          <p><span class="text-primary fs-4">$269</span>/night</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="info">
-    <div class="container" data-aos="fade-up">
-      <div class="row">
-        <div class="col-md-3 text-center mb-4 mb-lg-0">
-          <h3 class="display-1 fw-normal text-primary position-relative">5K <span
-              class="position-absolute top-50 end-50 translate-middle z-n1 ps-lg-4 pt-lg-4"><img
-                src="{% static 'images/pattern1.png' %}" alt="pattern" class="img-fluid"></span></h3>
-          <p class="text-capitalize">Happy Customer</p>
-        </div>
-        <div class="col-md-3 text-center mb-4 mb-lg-0">
-          <h3 class="display-1 fw-normal text-primary position-relative">20 <span
-              class="position-absolute top-50 translate-middle z-n1"><img src="{% static 'images/pattern1.png' %}" alt="pattern"
-                class="img-fluid"></span></h3>
-          <p class="text-capitalize">Total Products</p>
-        </div>
-        <div class="col-md-3 text-center mb-4 mb-lg-0">
-          <h3 class="display-1 fw-normal text-primary position-relative">4<span
-              class="position-absolute top-100 pb-5 translate-middle z-n1"><img src="{% static 'images/pattern1.png' %}" alt="pattern"
-                class="img-fluid"></span></h3>
-          <p class="text-capitalize">award wins</p>
-        </div>
-        <div class="col-md-3 text-center mb-4 mb-lg-0">
-          <h3 class="display-1 fw-normal text-primary position-relative">8 <span
-              class="position-absolute top-50 end-50 pb-lg-4 pe-lg-2 translate-middle z-n1"><img
-                src="{% static 'images/pattern1.png' %}" alt="pattern" class="img-fluid"></span></h3>
-          <p class="text-capitalize">Total Team Members </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="room" class="padding-medium">
+  <!-- <section id="room" class="">
     <div class="container-fluid padding-side" data-aos="fade-up">
       <div class="d-flex flex-wrap align-items-center justify-content-between">
         <div>
@@ -297,9 +383,66 @@
         <div class="swiper-pagination room-pagination position-relative mt-5"></div>
       </div>
     </div>
+  </section> -->
+
+  <section id="about-us" class="padding">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Ink of love, art of culture.</h3>
+      <div class="row align-items-start mt-3 mt-lg-5">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <p>At Mobina Mehndi, we specialize in offering premium mehndi products, including natural mehndi powder, rich mehndi oil, and a variety of cone accessories. Our products ensure vibrant, long-lasting henna designs for every occasion. In addition to our quality products, we also provide professional mehndi application services for weddings, festivals, and special events. With Mobina Mehndi, you can trust tradition and beauty to come together in every design.</p>
+            <a href="/" class="btn btn-arrow btn-primary mt-3">
+              <span>Read About Us <svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+          <img src="{% static 'images/mpic2.jpg' %}" alt="img" class="img-fluid rounded-4 mt-4">
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <img src="{% static 'images/mpic4.jpg' %}" alt="img" class="img-fluid rounded-4">
+          <img src="{% static 'images/mpic3.jpg' %}" alt="img" class="img-fluid rounded-4 mt-4">
+
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="gallery" data-aos="fade-up">
+  <section id="info" class="padding-small">
+    <div class="container " data-aos="fade-up">
+      <div class="row">
+        <div class="col-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">5K <span
+              class="position-absolute top-50 end-50 translate-middle z-n1 ps-lg-4 pt-lg-4"><img
+                src="{% static 'images/pattern1.png' %}" alt="pattern" class="img-fluid"></span></h3>
+          <p class="text-capitalize">Happy Customer</p>
+        </div>
+        <div class="col-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">20 <span
+              class="position-absolute top-50 translate-middle z-n1"><img src="{% static 'images/pattern1.png' %}" alt="pattern"
+                class="img-fluid"></span></h3>
+          <p class="text-capitalize">Total Products</p>
+        </div>
+        <div class="col-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">4<span
+              class="position-absolute top-100 pb-5 translate-middle z-n1"><img src="{% static 'images/pattern1.png' %}" alt="pattern"
+                class="img-fluid"></span></h3>
+          <p class="text-capitalize">award wins</p>
+        </div>
+        <div class="col-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">8 <span
+              class="position-absolute top-50 end-50 pb-lg-4 pe-lg-2 translate-middle z-n1"><img
+                src="{% static 'images/pattern1.png' %}" alt="pattern" class="img-fluid"></span></h3>
+          <p class="text-capitalize">Total Team Members </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <section id="gallery" data-aos="fade-up">
     <h3 class="display-3 fw-normal text-center">our gallery</h3>
     <p class="text-center col-lg-4 offset-lg-4 mb-5">Explore images of our exquisite Mehndi designs, showcasing intricate patterns and vibrant colors that will make your special day unforgettable. Discover the artistry in every detail, crafted with precision and care. Admire the stunning results achieved with our premium Mehndi products and services, where tradition meets elegance.</p>
     <div class="container position-relative">
@@ -340,9 +483,9 @@
         </svg>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="services" class="padding-medium">
+  <section id="services" class="padding">
     <div class="container-fluid padding-side" data-aos="fade-up">
       <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Our services & facilities</h3>
       <div class="row mt-5">
@@ -396,5 +539,4 @@
   </section>
 
  {% include 'footer.html' %}
-
 
